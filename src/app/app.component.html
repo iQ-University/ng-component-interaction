@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngIf="displayAlert" class="alert alert-primary"
+       role="alert">
+    A simple primary alert—check it out!
+  </div>
+  <!-- child components -->
+  <!-- https://angular.io/guide/component-interaction -->
+  <app-card [title]="customTitle" (bought)="onBuy($event)"></app-card>
+  <app-card [title]="customTitle" (bought)="onBuy($event)"></app-card>
+</div>

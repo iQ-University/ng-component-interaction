@@ -1,4 +1,6 @@
-# AppName
+# Component interaction
+
+- work files which contains examples and links on component interaction
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
